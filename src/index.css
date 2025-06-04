@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+.round {
+  border-radius: 50px;
+}
+
+.widthset {
+  max-width: 1720px;
+  font-family: inter;
+  margin: auto;
+}
+
+.marginset {
+  margin-top: -16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .techRes {
+  }
+}
+/* @media only screen and (max-width: 600px) {
+  body {
+  
+  }
+  .formTopNav {
+  }
+  .navTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navTop img {
+    margin-right: 100px;
+  }
+  .navTop p {
+    margin-left: 120px;
+    font-size: smaller;
+    width: 200px;
+  }
+  .topNav {
+    width: 150%;
+    margin-left: -100px;
+    text-align: center;
+  }
+  .topNav1 {
+    width: 150%;
+    margin-left: -80px;
+  }
+  .topNav2 {
+    width: 170%;
+    padding: 0px 20px;
+
+    margin-left: -100px;
+    gap: 10px;
+  }
+  .topNav3 {
+    background-color: black;
+    width: 150%;
+    margin-left: -90px;
+  }
+  .topNav4 {
+    width: 150%;
+    margin-left: -50px;
+    font-size: medium;
+  }
+  .topNav5 {
+    width: 100%;
+  }
+
+  .serv1 {
+  }
+  .serv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+
+    height: 100%;
+  }
+  .serv3 {
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .techRes {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    flex-direction: column;
+  }
+} */
