@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Portfolio() {
     return (
-        <div className='bg-[#24204E]  lg:mb-0 md:mb-0 sm:mb-[-20px] mb-[-90px]'>
+        <div className='bg-[#24204E]  lg:mb-0 md:mb-0 sm:mb-[-20px] mb-[-140px]'>
             <h4 className=' mb-4 text-center'>Our Portfolio</h4>
             <img className='lg:hidden md:hidden h-40 w-56 ml-9 sm:ml-16 sm:block mb-[-70px]  ' src="/logos/lappy.png" alt="" />
             <div className=' flex w-100 lg:gap-0  h-[600px]'>
