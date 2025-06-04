@@ -4,15 +4,15 @@ export default function Technology() {
     return (
         <>
             <div className='mt-20'>
-                <div className="relative techRes">
+                <div className="relative techRes ">
                     <div className="absolute md:left-[180px] sm:left-[170px] lg:left-[359px] mt-7 md:w-[600px] sm:w-[200px]  lg:w-[600px] h-[323px] p-8 flex flex-col justify-center items-center bg-white rounded-lg ">
-                        <h1 className="text-xl font-bold text-center mb-4"><span className=' font-extrabold'>Web Technologies</span> we love working on</h1>
-                        <p className="text-center lg:w-[620px] md:w-[720px] sm:w-screen font-medium text-lg  lg:ml-0 md:ml-0 sm:ml-32 lg:p-0 md:p-0 sm:p-10   mb-6">
+                        <p className="text-4xl w-[500px] lg:ml-0 md:ml-0 sm:ml-[170px] ml-0 text-center mb-4"><span className=' font-extrabold'>Web Technologies</span> we love working on</p>
+                        <p className="text-center lg:w-[620px] md:w-[720px] sm:w-screen font-medium text-lg  lg:pl-0 md:pl-0 sm:pl-48 lg:p-0 md:p-0 sm:p-10   mb-6">
                             Our team of highly efficient engineers love working on various coding languages that includes
                             Node, Angular, React, Laravel, MongoDB, HTML5, PHP, ASP.NET and Wordpress. As far as the
                             front-end technologies are concerned, we undertake CSS3, Magento, CMS and object modeling.
                         </p>
-                        <div className='flex mt-3 pl-4 justify-center'>
+                        <div className='flex mt-3 sm:ml-44 lg:ml-0 md:ml-12 ml-0 '>
                             <button className="bg-black text-white w-[200px] p-3 round ">
                                 Get Started for free
                             </button>

@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <div className="w-full topNavH mb-5 min-w-[321px] mx-auto">
-            <div className="flex flex-col  sm:flex-row justify-between items-center navTop w-full px-4  py-1">
+            <div className="flex flex-row  lg:flex-row lg:px-4 md:px-4 px-16 justify-between items-center navTop w-full   py-1">
                 <img className="h-[54px] w-[169px] md:ml-24 mb-2 md:mb-0" src='/logos/Kds logo 1.png' alt="Kds logo" />
                 <p className='md:mt-2 md:mr-20 pt-1 font-medium text-center md:text-right'>Call : +91 9045301702</p>
             </div>

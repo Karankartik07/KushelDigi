@@ -14,9 +14,35 @@
   margin-top: -16px;
 }
 
-@media only screen and (max-width: 600px) {
-  .techRes {
+.slider-container {
+  width: 100%;
+  max-width: 1720px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
   }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide {
+  animation: slide 8s linear infinite;
 }
 /* @media only screen and (max-width: 600px) {
   body {

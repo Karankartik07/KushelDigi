@@ -7,7 +7,7 @@ export default function WStart() {
             md:rounded-3xl md:pb-10 md:pt-20 md:pl-20 md:flex  
              bg-[#053162]'>
 
-                <div className='flex flex-col lg:p-0 md:p-0 p-8 sm:p-10  '>
+                <div className='flex flex-col lg:p-0 md:p-0 p-24 sm:p-20  '>
                     <p className='text-white text-3xl font-semibold lg:mt-0 md:mt-0 sm:mt-12 '>Not sure from where to start?</p>
                     <p className='text-white lg:w-[600px] md:w-[600px] sm:w-[200px] text-lg mt-3 '>Contact us today to schedule a consultation with our experts
                         and learn how we can help you to reach your goal with the best results.</p>
